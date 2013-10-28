@@ -6,6 +6,7 @@ urls = ["http://google.com","http://nytimes.com","http://CNN.com"]
 i = 0
 regex = b'<title>(.+?)</title>'
 pattern = re.compile(regex)
+print(regex)
 
 while i < len(urls): 
 	htmlfile = urllib.request.urlopen(urls[i])
@@ -13,3 +14,4 @@ while i < len(urls):
 	titles = re.findall(pattern,htmltext)
 	print (titles)
 	i += 1
+
