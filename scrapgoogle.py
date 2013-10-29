@@ -9,11 +9,11 @@ newsymbolslist = symbolslist.split("\n")
 
 i = 0
 while i < len(newsymbolslist):
-	url = "http://in.finance.yahoo.com/q?s=" + newsymbolslist[i] 
+	url = "https://www.google.com/finance?q=" + newsymbolslist[i] 
 	htmlfile = urllib.request.urlopen(url)
 	htmltext = htmlfile.read().decode('utf-8')
 
-	regex = '<span id="yfs_l84_[^.]*">(.+?)</span>'
+	regex = '<span id="ref_[^.]*_l" class="unchanged"></span>'
 	pattern = re.compile(regex)
 	price = re.findall(pattern,htmltext)
 
