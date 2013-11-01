@@ -19,3 +19,6 @@ while i < len(newsymbolslist):
 
 	print ("the price of",newsymbolslist[i],"is",price)
 	i += 1
+
+
+#comments section
