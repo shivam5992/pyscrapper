@@ -1,4 +1,4 @@
-import urllib.request
+import urllib2
 import re
 
 symbolfile = open("symbols1.txt")
@@ -10,7 +10,7 @@ newsymbolslist = symbolslist.split("\n")
 i = 0
 while i < len(newsymbolslist):
 	url = "http://in.finance.yahoo.com/q?s=" + newsymbolslist[i] 
-	htmlfile = urllib.request.urlopen(url)
+	htmlfile = urllib2.urlopen(url)
 	htmltext = htmlfile.read().decode('utf-8')
 
 	regex = '<span id="yfs_l84_[^.]*">(.+?)</span>'
