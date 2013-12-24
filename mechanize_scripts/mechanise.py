@@ -3,7 +3,8 @@ from BeautifulSoup import BeautifulSoup
 import urlparse
 import mechanize
 
-url = "http://adbnews.com/area51/contact.html"
+#url = "http://adbnews.com/area51/contact.html"
+url = "http://www.shivambansal.com"
 br = mechanize.Browser()
 
 urls = [url]

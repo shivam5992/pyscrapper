@@ -1,3 +1,7 @@
+'''
+Implementation of spider algorithm, it fetches ALL the urls and links of a website.
+'''
+
 import urlparse
 import urllib
 from BeautifulSoup import BeautifulSoup 

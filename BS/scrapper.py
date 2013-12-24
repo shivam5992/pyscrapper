@@ -1,3 +1,7 @@
+'''
+Extracting links using BS of a single webpage
+'''
+
 import urllib
 from BeautifulSoup import BeautifulSoup
 import urlparse

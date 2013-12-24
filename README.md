@@ -1,4 +1,6 @@
 PyScrapper
 ==========
 
-Web mining and scrapping series in python, Some of the underlying concepts used are Regular Expression, Json, Urllib, File Handeling, PyMySQL etc.
+Web mining and scrapping series in python
+
+Modules Used: Mechanize, Requests, Urllib, BeautifulSoup, Regular Expression
