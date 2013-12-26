@@ -20,13 +20,10 @@ class google_movie_scrapper:
 	
 	'''
 	Constructor for google_movie_scrapper class
-
-	Set 'city' parameter as valid name of the location
-	it is optional, if not set then default location is used by this script
 	'''
 
-	city = "noida"
-	def __init__(self,city = city):
+	def __init__(self,city):
+		self.city = city
 		if city is "":
 			url = "http://www.google.com/movies"
 		else:
@@ -65,7 +62,14 @@ class google_movie_scrapper:
 Printing the output and dumping the response in json format
 '''
 if __name__ == '__main__':
-	obj = google_movie_scrapper()
+	
+	'''
+	Set 'city' parameter as valid name of the location
+	it is optional, if not set then default location is used by this script
+	'''
+	city = "delhi"
+	
+	obj = google_movie_scrapper(city)
 	output = obj.scrap()
 	d = json.dumps(output)
 	f = open('respnse.json', 'w')
