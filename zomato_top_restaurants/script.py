@@ -22,6 +22,7 @@ class zomato_top_restaurants:
 			rest_details['cuisine'] = re.sub('[^a-zA-Z0-9\n,]', ' ', str(box.find(attrs={"class": "top-res-box-cuisine" }).string))
 			rest_details['location'] =  box.find("a",attrs={"class" : "cblack" }).string.strip()
 			rest_details['rating'] = box.find("div",attrs={"class" : re.compile("rating-for") }).string.strip()
+			rest_details['rank'] = box.parent.find("div",attrs={"class":"top-res-box-rank"}).text.replace("#","")
 			resp.append(rest_details)
 		return resp
 
@@ -41,4 +42,4 @@ if __name__ == '__main__':
 		f = open(city+".json","w")
 		print >> f, d
 		f.close()
-		print pprint(resp)
+		print pprint(resp)	
