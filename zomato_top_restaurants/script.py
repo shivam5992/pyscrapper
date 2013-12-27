@@ -1,3 +1,8 @@
+'''
+Python class to scrap top 25 trending restaurants and their details for various 
+cities and creating seperate json response for each city
+'''
+
 import re
 from BeautifulSoup import BeautifulSoup
 import urllib

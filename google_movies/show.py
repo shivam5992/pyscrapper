@@ -1,10 +1,7 @@
 '''
 Python Class to scrap google movies show times according to location.
-This script outputs list of Theaters, their address, movies list, movies genere
-and all the showtimes in the json format.
+This script outputs list of Theaters, their address, movies list, movies genere etc.
 
-@author Shivam Bansal
-@version 0.1
 '''
 
 from BeautifulSoup import BeautifulSoup
@@ -13,7 +10,7 @@ from pprint import pprint
 import json
 
 '''
-Python class to scrap google-movies webpage and get the response in json format.
+Python class to scrap google-movies webpage.
 webpage : www.google.com/movies
 '''
 class google_movie_scrapper:
@@ -32,7 +29,7 @@ class google_movie_scrapper:
 		self.soup = BeautifulSoup(htmltext)
 
 	'''
-	Function which scraps the movies, theaters, address, generes and movie times and building the response as Dictionary object.
+	Function which scraps the movies, theaters, address, generes and movie times and building the response as list of dictionaries.
 	'''
 	def scrap(self):
 		soup_object = self.soup
@@ -59,7 +56,7 @@ class google_movie_scrapper:
 		return output
 
 '''
-Printing the output and dumping the response in json format
+Printing the output.
 '''
 if __name__ == '__main__':
 	
@@ -71,12 +68,15 @@ if __name__ == '__main__':
 	
 	obj = google_movie_scrapper(city)
 	output = obj.scrap()
-	d = json.dumps(output)
-	f = open('respnse.json', 'w')
-	print >> f, d
-	f.close()
-	#print pprint(output)
 	
+	'''
+	Printing the list
+	'''
+	print pprint(output)
+	
+	'''
+	Printing using response
+	'''
 	print "*"*35
 	print "Showing the response for:", obj.city
 	print "*"*35
