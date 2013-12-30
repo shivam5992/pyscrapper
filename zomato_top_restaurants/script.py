@@ -20,7 +20,7 @@ class zomato_top_restaurants:
 	def scrap(self):
 		soup = self.soup
 		resp = []
-		print soup.title.string
+		#print soup.title.string
 		for box in soup.findAll("div",attrs={"class": "top-res-box-details"}):
 			rest_details = {}
 			rest_details['restaurant_name'] = box.span.string 
@@ -44,7 +44,7 @@ if __name__ == '__main__':
 		obj = zomato_top_restaurants(city)
 		resp = obj.scrap()
 		d = json.dumps(resp)
-		f = open(city+".json","w")
+		f = open("output/"+city+".json","w")
 		print >> f, d
 		f.close()
 		print pprint(resp)	
