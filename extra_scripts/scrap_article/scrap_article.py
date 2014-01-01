@@ -8,10 +8,3 @@ Get article from nytimes(or any website)
 '''
 article = articleText.getArticle(url)
 print article
-
-
-'''
-Top keywords from website
-'''
-#article1 = articleText.getHtmlText(url1)
-#print articleText.getKeywords(article1)
