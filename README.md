@@ -22,7 +22,7 @@ Mechanize, Urllib, BeautifulSoup, RE, urlparse
 
 **3. Finance and Stock:**
 	
-	Scrapping the last closing price for all the quotes from various sites like google.finance, yahoo finance, bloomberg etc
+	Scrapping the last closing price for all the quotes from various sites like google, yahoo, bloomberg etc
 
 **4. Live Weather:**
 
