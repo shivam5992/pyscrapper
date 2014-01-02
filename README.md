@@ -45,3 +45,11 @@ Mechanize, Urllib, BeautifulSoup, RE, urlparse
 **8. News Scrapping:**
 
 	Scrap the news from various news sources.
+
+**9. Alexia Top Websites:**
+	
+	Get the list of top 25 websites of a country.
+
+**10. Movie Details:**
+
+	Get the movie details from IMDB and RottenTomatoes.
