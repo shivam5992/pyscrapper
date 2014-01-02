@@ -44,6 +44,9 @@ if __name__ == '__main__':
 		obj = zomato_top_restaurants(city)
 		resp = obj.scrap()
 		d = json.dumps(resp)
+		'''
+		Create a Folder named "output" to collect the output, and uncomment the following lines
+		'''
 		f = open("output/"+city+".json","w")
 		print >> f, d
 		f.close()
