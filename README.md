@@ -46,10 +46,16 @@ Mechanize, Urllib, BeautifulSoup, RE, urlparse
 
 	Scrap the news from various news sources.
 
-**9. Alexia Top Websites:**
+**9. Alexa Top Websites:**
 	
 	Get the list of top 25 websites of a country.
 
 **10. Movie Details:**
 
 	Get the movie details from IMDB and RottenTomatoes.
+
+## Spider Algorithm
+
+Spider algorithm is a typical web scrapping technique to fetch all urls (etc) of a webpage. By all means, 
+even those urls which are not part of the requested page. It fetches all urls of current urls as well.
+Implemented using two ways, one normal and second using mechanize.

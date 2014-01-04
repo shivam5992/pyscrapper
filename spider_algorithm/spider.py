@@ -1,27 +1,24 @@
 '''
-Implementation of spider algorithm, it fetches ALL the urls and links of a website.
+Implementation of spider algorithm, fetches ALL the urls and links of a website.
 '''
 
 import urlparse
 import urllib
 from BeautifulSoup import BeautifulSoup 
 
-url = "http://www.shivambansal.com"
-urls = [url] #stack of urls to scrape
-visited = [url] #historic record of urls
+url = "http://www.nytimes.com"
+urls = [url] # Stack of urls to scrape
+visited = [url] # Historic record of urls
 
 while len(urls):
 	try:
 		htmltext = urllib.urlopen(urls[0]).read()
 	except:
-		# do nothing
 		i = 1
 
 	soup = BeautifulSoup(htmltext)
 	urls.pop(0)
-	#print len(urls)
-
-	#normalised
+	
 	for tag in soup.findAll('a',href=True):
 		tag['href'] = urlparse.urljoin(url,tag['href'])
 		if url in tag['href'] and tag['href'] not in visited:
@@ -30,3 +27,4 @@ while len(urls):
 
 for i,j in enumerate(visited):
 	print visited[i]
+
