@@ -35,7 +35,7 @@ Mechanize, Urllib, BeautifulSoup, RE, urlparse
 
 **6. Train Details:**
 
-	Scrap the details of train from irctc but inputting train number.
+	Scrap the details of train from irctc by inputting train number.
 
 **7. Website Top Keywords:** 
 	
@@ -53,6 +53,10 @@ Mechanize, Urllib, BeautifulSoup, RE, urlparse
 **10. Movie Details:**
 
 	Get the movie details from IMDB and RottenTomatoes.
+
+**11. US President State of Union Speech:**
+	
+	Scrape the speech transcripts of all Us Presidents from 1700 to Present.
 
 ## Spider Algorithm
 
