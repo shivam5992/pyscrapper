@@ -8,14 +8,15 @@ import bs4
 from bs4 import BeautifulSoup
 import re
 import requests
-from pprint import pprint
+import pprint
+import json
 
 
 # Python class to scrap google-movies webpage.
 # webpage : www.google.com/movies
 
 class google_movie_scrapper:
-    
+
     # Constructor for google_movie_scrapper class
     def __init__(self, city):
         self.city = city
