@@ -1,147 +1,146 @@
+#! /usr/bin/python3
+
 '''
 Python Class to scrap google movies show times according to location.
 This script outputs list of Theaters, their address, movies list, movies genere etc.
-
 '''
-
-from BeautifulSoup import BeautifulSoup
-import re,urllib
+import bs4
+from bs4 import BeautifulSoup
+import re
+import requests
 from pprint import pprint
-import json
 
-'''
-Python class to scrap google-movies webpage.
-webpage : www.google.com/movies
-'''
+
+# Python class to scrap google-movies webpage.
+# webpage : www.google.com/movies
+
 class google_movie_scrapper:
-	
-	'''
-	Constructor for google_movie_scrapper class
-	'''
+    
+    # Constructor for google_movie_scrapper class
+    def __init__(self, city):
+        self.city = city
+        if city is "":
+            url = "http://www.google.com/movies"
+        else:
+            url = "http://www.google.com/movies?near=" + city
+        r = requests.get(url)
+        textohtml = r.text
+        self.soup = BeautifulSoup(textohtml, "lxml")
 
-	def __init__(self,city):
-		self.city = city
-		if city is "":
-			url = "http://www.google.com/movies"
-		else:
-			url = "http://www.google.com/movies?near=" + city
-		htmltext = urllib.urlopen(url).read()
-		self.soup = BeautifulSoup(htmltext)
+    # Function which scraps the movies, theaters, address, generes and movie times and building the response as list of dictionaries.
+    def scrap(self):
+        soup_object = self.soup
+        output = []
 
-	'''
-	Function which scraps the movies, theaters, address, generes and movie times and building the response as list of dictionaries.
-	'''
-	def scrap(self):
-		soup_object = self.soup
-		output = []
-		for theater in soup_object.findAll("div", {"class":re.compile("theater")}):
-			resp = {}
-			resp['theater'] = theater.a.string
-			resp['address'] = theater.find("div", {"class":re.compile("info")}).contents[0]
-			movie_list = []
-			for movie in theater.find("div", {"class":re.compile("showtimes")}).findAll("div", {"class":re.compile("movie")}):
-				movie_dict = {}
-				movie_dict['movie_name'] = movie.a.string 
-				movie_dict['genere'] = re.sub('[^a-zA-Z/\n\.]', ' ', str(movie.span.text)).strip().replace("                 "," - ").replace("         Trailer","")
-				showtimeslist = []
-				for time in movie.findAll("div",{"class":re.compile("times")})[0].findAll("span"):
-					time_string = re.sub('[^a-z0-9:\n\.]', ' ', str(time.text)).replace("8206","").replace("nbsp","").strip()
-					if time_string is not "":
-						showtimeslist.append(time_string)
-				movie_dict['showtimes'] = showtimeslist
-				movie_list.append(movie_dict)
+        for theater in soup_object.findAll("div", {"class": re.compile("theater")}):
+            resp = {}
+            resp['theater'] = theater.find("a").contents[0]
+            resp['address'] = theater.find("div", {"class": re.compile("info")}).contents[0]
 
-				resp['movieslist'] = movie_list
-			output.append(resp)
-		return output
+            movie_list = []
+            for movie in theater.find("div", {"class": re.compile("showtimes")}).findAll("div", {
+                "class": re.compile("movie")}):
+                dict = {}
+                dict['movie_name'] = movie.a.string
+                dict['genere'] = movie.find("span", {"class": re.compile("info")}).contents[0]
 
-'''
-Printing the output.
-'''
+                show_timings_list = []
+                for time in movie.findAll("div", {"class": re.compile("times")})[0].findAll("span"):
+                    time_string = re.sub('[^a-z0-9:\n\.]', ' ', str(time.text)).replace("8206", "").replace("nbsp",
+                                                                                                            "").strip()
+                    if time_string is not "":
+                        show_timings_list.append(time_string)
+
+                dict['showtimes'] = show_timings_list
+                movie_list.append(dict)
+                resp['movieslist'] = movie_list
+            output.append(resp)
+        return output
+
+
+# Printing the output
 if __name__ == '__main__':
-	
-	'''
-	Set 'city' parameter as valid name of the location
-	it is optional, if not set then default location is used by this script
-	'''
-	city = "delhi"
-	
-	obj = google_movie_scrapper(city)
-	output = obj.scrap()
-	
-	'''
-	Printing the list
-	'''
-	print pprint(output)
-	
-	'''
-	Printing using response
-	'''
-	print "*"*35
-	print "Showing the response for:", obj.city
-	print "*"*35
-	print ""
 
-	for i,j in enumerate(output):
-		print "Following are the movie details for >>", output[i]['theater'], "<< located at '", output[i]['address'], "'" 
-		for x,y in enumerate(output[i]['movieslist']):
-			print "Showtimes for", y['movie_name'], "are", y['showtimes'], "Genere is:", y['genere']
-		print "-"*150
+    # Setting 'city' param as valid name of location is optional.
+    # If not set then default location is used by this script.
+
+    city = "Dehli"
+
+    obj = google_movie_scrapper(city)
+    output = obj.scrap()
+
+    # Printint the list
+    print(pprint(output))
+
+    # Printing using response
+    print("\n", "*" * 35)
+    print("Response for: ", obj.city)
+    print("*" * 35)
+    print("")
+
+    for i, j in enumerate(output):
+        print("Movies and showtimes for: \n\n", output[i]['theater'], "\n", output[i]['address'], "\n")
+        for x, y in enumerate(output[i]['movieslist']):
+            print(y['movie_name'], ": ", y['showtimes'], y['genere'])
+        print("-" * 100)
 
 
-'''
-RESPONSE Format:
-		
-	[   {
-		'theater': name of the theater
-		'address': address of the theater
-		'movieslist':
-				'movie_name': name of the movie
-				'showtimes': [1,2,3,4,5,6,7,8]
-				'genere': genere of the movies
 
-				'movie_name': name of the movie
-				'showtimes': [1,2,3,4,5,6,7,8]
-				'genere': genere of the movies
 
-				'movie_name': name of the movie
-				'showtimes': [1,2,3,4,5,6,7,8]
-				'genere': genere of the movies
-		},
 
-		{
-		'theater': name of the theater
-		'address': address of the theater
-		'movieslist':
-				'movie_name': name of the movie
-				'showtimes': [1,2,3,4,5,6,7,8]
-				'genere': genere of the movies
+    # RESPONSE Format:
 
-				'movie_name': name of the movie
-				'showtimes': [1,2,3,4,5,6,7,8]
-				'genere': genere of the movies
+    #
+    # [
+    # [...]
+    #     {'address': 'Shree Rang Palace - Zadeshwar Road, Bharuch, India - 02642 228 '
+    #                 '844',
+    #      'movieslist': [{'genere': '2hr 31min - '
+    #                                'Action/Adventure/Romance/Suspense/Thriller - '
+    #                                'Hindi',
+    #                      'movie_name': 'A Flying Jatt',
+    #                      'showtimes': ['9:10',
+    #                                    '10:00am',
+    #                                    '1:00',
+    #                                    '3:05',
+    #                                    '4:05',
+    #                                    '6:10',
+    #                                    '10:15pm']},
+    #                     {'genere': '1hr 39min - Action/Adventure/Suspense/Thriller - '
+    #                                'English - ',
+    #                      'movie_name': 'Mechanic: Resurrection',
+    #                      'showtimes': ['9:35am', '5:20', '10:30pm']},
+    #                     {'genere': '2hr 28min - Drama/Suspense/Thriller - Hindi',
+    #                      'movie_name': 'Rustom',
+    #                      'showtimes': ['11:45am', '7:30pm']},
+    #                     {'genere': '2hr 6min - Comedy/Romance - Hindi',
+    #                      'movie_name': 'Happy Bhaag Jayegi',
+    #                      'showtimes': ['2:45', '7:11pm']},
+    #                     {'genere': '2hr 20min - Drama - Telugu',
+    #                      'movie_name': 'Janatha Garage',
+    #                      'showtimes': ['9:16pm']},
+    #                     {'genere': '2hr 13min - Comedy/Drama - Gujarati',
+    #                      'movie_name': 'Navri Bazar',
+    #                      'showtimes': ['12:15pm']}],
+    #      'theater': 'INOX Bharuch'},
+    # [...]
+    #
+    # ]
 
-				'movie_name': name of the movie
-				'showtimes': [1,2,3,4,5,6,7,8]
-				'genere': genere of the movies
-		},
 
-		{
-		'theater': name of the theater
-		'address': address of the theater
-		'movieslist':
-				'movie_name': name of the movie
-				'showtimes': [1,2,3,4,5,6,7,8]
-				'genere': genere of the movies
 
-				'movie_name': name of the movie
-				'showtimes': [1,2,3,4,5,6,7,8]
-				'genere': genere of the movies
-
-				'movie_name': name of the movie
-				'showtimes': [1,2,3,4,5,6,7,8]
-				'genere': genere of the movies
-		}
-	]
-'''
-	
+    # [...]
+    # ----------------------------------------------------------------------------------------------------
+    # Movies and showtimes for:
+    #
+    #  INOX Bharuch
+    #  Shree Rang Palace - Zadeshwar Road, Bharuch, India - 02642 228 844
+    #
+    # A Flying Jatt :  ['9:10', '10:00am', '1:00', '3:05', '4:05', '6:10', '10:15pm'] 2hr 31min - Action/Adventure/Romance/Suspense/Thriller - Hindi
+    # Mechanic: Resurrection :  ['9:35am', '5:20', '10:30pm'] 1hr 39min - Action/Adventure/Suspense/Thriller - English -
+    # Rustom :  ['11:45am', '7:30pm'] 2hr 28min - Drama/Suspense/Thriller - Hindi
+    # Happy Bhaag Jayegi :  ['2:45', '7:11pm'] 2hr 6min - Comedy/Romance - Hindi
+    # Janatha Garage :  ['9:16pm'] 2hr 20min - Drama - Telugu
+    # Navri Bazar :  ['12:15pm'] 2hr 13min - Comedy/Drama - Gujarati
+    # ----------------------------------------------------------------------------------------------------
+    # [...]
