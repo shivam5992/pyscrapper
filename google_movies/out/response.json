@@ -1,0 +1,1274 @@
+[
+  {
+    "movieslist": [
+      {
+        "showtimes": [
+          "18:20",
+          "22:50"
+        ],
+        "movie_name": "Cuerpo de élite",
+        "genere": "1hr 37min"
+      },
+      {
+        "showtimes": [
+          "19:40",
+          "21:55"
+        ],
+        "movie_name": "Lejos del mar",
+        "genere": "1hr 46min"
+      },
+      {
+        "showtimes": [
+          "16:30",
+          "18:30",
+          "20:35",
+          "22:35"
+        ],
+        "movie_name": "Café society V.O.S.E.",
+        "genere": "1hr 36min"
+      },
+      {
+        "showtimes": [
+          "17:00",
+          "19:30",
+          "22:00"
+        ],
+        "movie_name": "Ben-Hur (2016) V.O.S.E.",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "16:10",
+          "18:10",
+          "20:10",
+          "22:10"
+        ],
+        "movie_name": "No respires V.O.S.E.",
+        "genere": "1hr 28min"
+      },
+      {
+        "showtimes": [
+          "16:00",
+          "18:15",
+          "20:30",
+          "22:45"
+        ],
+        "movie_name": "Los visitantes la lían V.O.S.E.",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "16:05",
+          "18:00",
+          "19:55"
+        ],
+        "movie_name": "Mascotas V.O.S.E.",
+        "genere": "1hr 26min"
+      },
+      {
+        "showtimes": [
+          "16:00",
+          "18:05",
+          "20:15"
+        ],
+        "movie_name": "Kubo y las dos cuerdas mágicas V.O.S.E.",
+        "genere": "1hr 42min"
+      },
+      {
+        "showtimes": [
+          "19:15",
+          "21:45"
+        ],
+        "movie_name": "Star Trek: Más allá V.O.S.E.",
+        "genere": "1hr 40min"
+      },
+      {
+        "showtimes": [
+          "17:15",
+          "21:50"
+        ],
+        "movie_name": "Escuadrón suicida V.O.S.E.",
+        "genere": "2hr 10min"
+      },
+      {
+        "showtimes": [
+          "16:45",
+          "22:20"
+        ],
+        "movie_name": "Cazafantasmas V.O.S.E.",
+        "genere": "1hr 56min"
+      },
+      {
+        "showtimes": [
+          "16:05"
+        ],
+        "movie_name": "Peter y el dragón V.O.S.E.",
+        "genere": "1hr 43min"
+      },
+      {
+        "showtimes": [
+          "20:20"
+        ],
+        "movie_name": "Jason Bourne V.O.S.E.",
+        "genere": "2hr 0min"
+      }
+    ],
+    "theater": "YELMO CINES IDEAL",
+    "address": "C/ DOCTOR CORTEZO, 6, Madrid, Spain - 913 69 06 69"
+  },
+  {
+    "movieslist": [
+      {
+        "showtimes": [
+          "17:00",
+          "19:30",
+          "22:00"
+        ],
+        "movie_name": "Ben-Hur (2016)",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "18:30",
+          "20:30",
+          "22:30"
+        ],
+        "movie_name": "Café society",
+        "genere": "1hr 36min"
+      },
+      {
+        "showtimes": [
+          "16:30",
+          "20:30"
+        ],
+        "movie_name": "El profesor de violín",
+        "genere": "1hr 42min"
+      },
+      {
+        "showtimes": [
+          "16:30",
+          "18:30",
+          "22:30"
+        ],
+        "movie_name": "La espera (L'attesa)",
+        "genere": "1hr 40min"
+      }
+    ],
+    "theater": "CINE PALAFOX",
+    "address": "C/ LUCHANA, 15, Madrid, Spain - 914 46 18 87"
+  },
+  {
+    "movieslist": [
+      {
+        "showtimes": [
+          "16:30",
+          "19:30",
+          "21:45"
+        ],
+        "movie_name": "Siete vidas, este gato es un peligro",
+        "genere": "1hr 27min"
+      },
+      {
+        "showtimes": [
+          "16:20",
+          "19:05",
+          "21:50"
+        ],
+        "movie_name": "Lejos del mar",
+        "genere": "1hr 46min"
+      },
+      {
+        "showtimes": [
+          "16:15",
+          "19:05",
+          "21:50"
+        ],
+        "movie_name": "El elegido",
+        "genere": "2hr 2min"
+      },
+      {
+        "showtimes": [
+          "16:25",
+          "18:45",
+          "21:30"
+        ],
+        "movie_name": "Cerca de tu casa",
+        "genere": "1hr 33min"
+      },
+      {
+        "showtimes": [
+          "16:15",
+          "18:45",
+          "21:30"
+        ],
+        "movie_name": "La estación de las mujeres",
+        "genere": "1hr 56min"
+      }
+    ],
+    "theater": "CINE PAZ",
+    "address": "C/ FUENCARRAL, 125, Madrid, Spain - 914 46 45 66"
+  },
+  {
+    "movieslist": [
+      {
+        "showtimes": [
+          "20:30"
+        ],
+        "movie_name": "El viaje de Unai V.O.S.E.",
+        "genere": "1hr 10min"
+      }
+    ],
+    "theater": "CINETECA",
+    "address": "PLAZA LEGAZPI, 8, Madrid, Spain"
+  },
+  {
+    "movieslist": [
+      {
+        "showtimes": [
+          "12:00",
+          "14:00",
+          "16:00",
+          "18:00",
+          "20:10",
+          "22:15"
+        ],
+        "movie_name": "Cuerpo de élite",
+        "genere": "1hr 37min"
+      },
+      {
+        "showtimes": [
+          "12:45",
+          "14:35",
+          "16:30",
+          "18:30",
+          "20:30",
+          "22:30"
+        ],
+        "movie_name": "No respires",
+        "genere": "1hr 28min"
+      },
+      {
+        "showtimes": [
+          "13:00",
+          "15:30",
+          "17:30",
+          "19:30",
+          "21:30"
+        ],
+        "movie_name": "Mascotas",
+        "genere": "1hr 26min"
+      },
+      {
+        "showtimes": [
+          "12:50",
+          "16:15",
+          "18:45",
+          "20:00",
+          "22:30"
+        ],
+        "movie_name": "Ben-Hur (2016)",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "19:40",
+          "21:30",
+          "23:10"
+        ],
+        "movie_name": "Nunca apagues la luz",
+        "genere": "1hr 21min"
+      },
+      {
+        "showtimes": [
+          "12:10",
+          "14:00",
+          "15:55",
+          "17:50",
+          "19:45"
+        ],
+        "movie_name": "Siete vidas, este gato es un peligro",
+        "genere": "1hr 27min"
+      },
+      {
+        "showtimes": [
+          "20:15",
+          "22:20"
+        ],
+        "movie_name": "Café society",
+        "genere": "1hr 36min"
+      },
+      {
+        "showtimes": [
+          "13:00",
+          "15:30",
+          "17:45",
+          "20:00",
+          "22:15"
+        ],
+        "movie_name": "Los visitantes la lían",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "12:05",
+          "16:15",
+          "18:20",
+          "20:25"
+        ],
+        "movie_name": "Kubo y las dos cuerdas mágicas",
+        "genere": "1hr 42min"
+      },
+      {
+        "showtimes": [
+          "17:45",
+          "20:05",
+          "22:20"
+        ],
+        "movie_name": "Criminal",
+        "genere": "1hr 53min"
+      },
+      {
+        "showtimes": [
+          "12:20",
+          "15:30",
+          "17:40"
+        ],
+        "movie_name": "Peter y el dragón",
+        "genere": "1hr 43min"
+      },
+      {
+        "showtimes": [
+          "16:45",
+          "19:15",
+          "21:45"
+        ],
+        "movie_name": "Escuadrón suicida",
+        "genere": "2hr 10min"
+      },
+      {
+        "showtimes": [
+          "12:40",
+          "17:10",
+          "21:40"
+        ],
+        "movie_name": "Star Trek: Más allá",
+        "genere": "1hr 40min"
+      },
+      {
+        "showtimes": [
+          "12:10",
+          "17:40",
+          "22:25"
+        ],
+        "movie_name": "Cazafantasmas",
+        "genere": "1hr 56min"
+      },
+      {
+        "showtimes": [
+          "12:35",
+          "15:35"
+        ],
+        "movie_name": "Heidi",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "21:15"
+        ],
+        "movie_name": "Ben-Hur (2016) 3D",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "15:10"
+        ],
+        "movie_name": "Nerve, un juego sin reglas",
+        "genere": "1hr 36min"
+      },
+      {
+        "showtimes": [
+          "15:30"
+        ],
+        "movie_name": "Zipi y Zape y la isla del capitan",
+        "genere": "1hr 45min"
+      },
+      {
+        "showtimes": [
+          "12:05"
+        ],
+        "movie_name": "Buscando a Dory",
+        "genere": "1hr 36min"
+      },
+      {
+        "showtimes": [
+          "14:50"
+        ],
+        "movie_name": "Ice Age: El gran cataclismo",
+        "genere": "1hr 35min"
+      },
+      {
+        "showtimes": [
+          "12:30",
+          "16:00",
+          "18:30",
+          "21:00"
+        ],
+        "movie_name": "Mascotas SJ",
+        "genere": "1hr 26min"
+      },
+      {
+        "showtimes": [
+          "14:10"
+        ],
+        "movie_name": "Kubo y las dos cuerdas mágicas 3D",
+        "genere": "1hr 42min"
+      }
+    ],
+    "theater": "YELMO CINES ISLAZUL",
+    "address": "C/ CALDERILLA, 1, Madrid, Spain"
+  },
+  {
+    "movieslist": [
+      {
+        "showtimes": [
+          "16:35",
+          "18:40",
+          "20:45",
+          "22:50"
+        ],
+        "movie_name": "Cuerpo de élite",
+        "genere": "1hr 37min"
+      },
+      {
+        "showtimes": [
+          "16:10",
+          "18:00",
+          "20:00",
+          "21:55"
+        ],
+        "movie_name": "No respires",
+        "genere": "1hr 28min"
+      },
+      {
+        "showtimes": [
+          "16:30",
+          "18:35",
+          "20:35"
+        ],
+        "movie_name": "Mascotas",
+        "genere": "1hr 26min"
+      },
+      {
+        "showtimes": [
+          "17:00",
+          "19:30",
+          "22:00",
+          "23:00"
+        ],
+        "movie_name": "Ben-Hur (2016)",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "16:50",
+          "18:50",
+          "20:40",
+          "22:40"
+        ],
+        "movie_name": "Nunca apagues la luz",
+        "genere": "1hr 21min"
+      },
+      {
+        "showtimes": [
+          "16:40",
+          "18:30",
+          "20:25"
+        ],
+        "movie_name": "Siete vidas, este gato es un peligro",
+        "genere": "1hr 27min"
+      },
+      {
+        "showtimes": [
+          "18:25",
+          "20:25",
+          "22:25"
+        ],
+        "movie_name": "Café society",
+        "genere": "1hr 36min"
+      },
+      {
+        "showtimes": [
+          "17:30",
+          "19:45",
+          "22:05"
+        ],
+        "movie_name": "Los visitantes la lían",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "16:00",
+          "18:05",
+          "20:10"
+        ],
+        "movie_name": "Kubo y las dos cuerdas mágicas",
+        "genere": "1hr 42min"
+      },
+      {
+        "showtimes": [
+          "16:00",
+          "18:15",
+          "20:20",
+          "22:35"
+        ],
+        "movie_name": "Criminal",
+        "genere": "1hr 53min"
+      },
+      {
+        "showtimes": [
+          "16:05",
+          "18:10"
+        ],
+        "movie_name": "Peter y el dragón",
+        "genere": "1hr 43min"
+      },
+      {
+        "showtimes": [
+          "17:05",
+          "19:35",
+          "22:05"
+        ],
+        "movie_name": "Escuadrón suicida",
+        "genere": "2hr 10min"
+      },
+      {
+        "showtimes": [
+          "17:10",
+          "19:40",
+          "22:10"
+        ],
+        "movie_name": "Star Trek: Más allá",
+        "genere": "1hr 40min"
+      },
+      {
+        "showtimes": [
+          "22:20"
+        ],
+        "movie_name": "Cazafantasmas",
+        "genere": "1hr 56min"
+      },
+      {
+        "showtimes": [
+          "22:15"
+        ],
+        "movie_name": "Lejos del mar",
+        "genere": "1hr 46min"
+      },
+      {
+        "showtimes": [
+          "16:15"
+        ],
+        "movie_name": "Heidi",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "20:30"
+        ],
+        "movie_name": "Ben-Hur (2016) 3D",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "22:30"
+        ],
+        "movie_name": "Jason Bourne",
+        "genere": "2hr 0min"
+      }
+    ],
+    "theater": "YELMO CINES PLENILUNIO",
+    "address": "CL ARACNE, 3, Madrid, Spain - 915 26 81 30"
+  },
+  {
+    "movieslist": [
+      {
+        "showtimes": [
+          "13:25",
+          "16:15",
+          "18:20",
+          "20:30",
+          "22:35"
+        ],
+        "movie_name": "Cuerpo de élite",
+        "genere": "1hr 37min"
+      },
+      {
+        "showtimes": [
+          "13:00",
+          "15:00",
+          "17:00",
+          "18:55",
+          "20:50",
+          "22:45"
+        ],
+        "movie_name": "No respires",
+        "genere": "1hr 28min"
+      },
+      {
+        "showtimes": [
+          "12:00",
+          "14:00",
+          "16:05",
+          "18:05",
+          "19:05",
+          "20:05",
+          "21:05"
+        ],
+        "movie_name": "Mascotas",
+        "genere": "1hr 26min"
+      },
+      {
+        "showtimes": [
+          "13:30",
+          "16:15",
+          "18:45",
+          "21:15",
+          "22:15"
+        ],
+        "movie_name": "Ben-Hur (2016)",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "19:20",
+          "21:10",
+          "23:05"
+        ],
+        "movie_name": "Nunca apagues la luz",
+        "genere": "1hr 21min"
+      },
+      {
+        "showtimes": [
+          "12:05",
+          "14:05",
+          "16:20",
+          "18:10",
+          "20:10",
+          "22:05"
+        ],
+        "movie_name": "Siete vidas, este gato es un peligro",
+        "genere": "1hr 27min"
+      },
+      {
+        "showtimes": [
+          "13:40",
+          "16:10",
+          "18:15",
+          "20:15",
+          "22:15"
+        ],
+        "movie_name": "Café society",
+        "genere": "1hr 36min"
+      },
+      {
+        "showtimes": [
+          "12:35",
+          "14:50",
+          "17:05",
+          "19:20",
+          "21:40"
+        ],
+        "movie_name": "Los visitantes la lían",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "12:05",
+          "16:30",
+          "18:30",
+          "20:40"
+        ],
+        "movie_name": "Kubo y las dos cuerdas mágicas",
+        "genere": "1hr 42min"
+      },
+      {
+        "showtimes": [
+          "17:20",
+          "19:40",
+          "22:00"
+        ],
+        "movie_name": "Criminal",
+        "genere": "1hr 53min"
+      },
+      {
+        "showtimes": [
+          "12:40",
+          "15:15",
+          "17:30",
+          "19:45"
+        ],
+        "movie_name": "Peter y el dragón",
+        "genere": "1hr 43min"
+      },
+      {
+        "showtimes": [
+          "17:15",
+          "22:50"
+        ],
+        "movie_name": "Escuadrón suicida",
+        "genere": "2hr 10min"
+      },
+      {
+        "showtimes": [
+          "13:50",
+          "16:45",
+          "19:15",
+          "21:45"
+        ],
+        "movie_name": "Star Trek: Más allá",
+        "genere": "1hr 40min"
+      },
+      {
+        "showtimes": [
+          "13:35",
+          "16:35",
+          "22:05"
+        ],
+        "movie_name": "Cazafantasmas",
+        "genere": "1hr 56min"
+      },
+      {
+        "showtimes": [
+          "21:55"
+        ],
+        "movie_name": "Lejos del mar",
+        "genere": "1hr 46min"
+      },
+      {
+        "showtimes": [
+          "17:10",
+          "23:00"
+        ],
+        "movie_name": "Secuestro",
+        "genere": "1hr 45min"
+      },
+      {
+        "showtimes": [
+          "15:05"
+        ],
+        "movie_name": "Heidi",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "19:45"
+        ],
+        "movie_name": "Ben-Hur (2016) 3D",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "12:45"
+        ],
+        "movie_name": "La leyenda de Tarzán",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "14:55"
+        ],
+        "movie_name": "Zipi y Zape y la isla del capitan",
+        "genere": "1hr 45min"
+      },
+      {
+        "showtimes": [
+          "15:10"
+        ],
+        "movie_name": "Buscando a Dory",
+        "genere": "1hr 36min"
+      },
+      {
+        "showtimes": [
+          "13:05"
+        ],
+        "movie_name": "Ice Age: El gran cataclismo",
+        "genere": "1hr 35min"
+      },
+      {
+        "showtimes": [
+          "14:15"
+        ],
+        "movie_name": "Kubo y las dos cuerdas mágicas 3D",
+        "genere": "1hr 42min"
+      },
+      {
+        "showtimes": [
+          "12:30"
+        ],
+        "movie_name": "Mi amigo el gigante",
+        "genere": "1hr 55min"
+      }
+    ],
+    "theater": "YELMO CINES TRESAGUAS",
+    "address": "AVDA. SAN MARTIN DE VALDEIGLESIAS - C C TRESAGUAS, 7-9, Alcorcón, Spain - 914 88 08 50"
+  },
+  {
+    "movieslist": [
+      {
+        "showtimes": [
+          "16:05",
+          "18:10",
+          "20:20",
+          "22:25"
+        ],
+        "movie_name": "Cuerpo de élite",
+        "genere": "1hr 37min"
+      },
+      {
+        "showtimes": [
+          "16:30",
+          "18:30",
+          "20:35",
+          "22:30"
+        ],
+        "movie_name": "No respires",
+        "genere": "1hr 28min"
+      },
+      {
+        "showtimes": [
+          "16:00",
+          "17:55",
+          "19:55"
+        ],
+        "movie_name": "Mascotas",
+        "genere": "1hr 26min"
+      },
+      {
+        "showtimes": [
+          "17:00",
+          "19:30",
+          "22:00"
+        ],
+        "movie_name": "Ben-Hur (2016)",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "19:25",
+          "21:15",
+          "23:00"
+        ],
+        "movie_name": "Nunca apagues la luz",
+        "genere": "1hr 21min"
+      },
+      {
+        "showtimes": [
+          "16:00",
+          "17:55",
+          "19:50"
+        ],
+        "movie_name": "Siete vidas, este gato es un peligro",
+        "genere": "1hr 27min"
+      },
+      {
+        "showtimes": [
+          "18:20",
+          "20:25",
+          "22:40"
+        ],
+        "movie_name": "Café society",
+        "genere": "1hr 36min"
+      },
+      {
+        "showtimes": [
+          "18:15",
+          "20:30",
+          "22:45"
+        ],
+        "movie_name": "Los visitantes la lían",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "16:00",
+          "18:05",
+          "20:15"
+        ],
+        "movie_name": "Kubo y las dos cuerdas mágicas",
+        "genere": "1hr 42min"
+      },
+      {
+        "showtimes": [
+          "18:30",
+          "22:20"
+        ],
+        "movie_name": "Criminal",
+        "genere": "1hr 53min"
+      },
+      {
+        "showtimes": [
+          "16:00",
+          "18:10"
+        ],
+        "movie_name": "Peter y el dragón",
+        "genere": "1hr 43min"
+      },
+      {
+        "showtimes": [
+          "19:20",
+          "21:50"
+        ],
+        "movie_name": "Escuadrón suicida",
+        "genere": "2hr 10min"
+      },
+      {
+        "showtimes": [
+          "16:50",
+          "19:20",
+          "21:50"
+        ],
+        "movie_name": "Star Trek: Más allá",
+        "genere": "1hr 40min"
+      },
+      {
+        "showtimes": [
+          "17:00",
+          "22:00"
+        ],
+        "movie_name": "Cazafantasmas",
+        "genere": "1hr 56min"
+      },
+      {
+        "showtimes": [
+          "20:20"
+        ],
+        "movie_name": "Lejos del mar",
+        "genere": "1hr 46min"
+      },
+      {
+        "showtimes": [
+          "21:45"
+        ],
+        "movie_name": "Secuestro",
+        "genere": "1hr 45min"
+      },
+      {
+        "showtimes": [
+          "16:00"
+        ],
+        "movie_name": "Ben-Hur (2016) 3D",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "16:20"
+        ],
+        "movie_name": "Café society V.O.S.E.",
+        "genere": "1hr 36min"
+      },
+      {
+        "showtimes": [
+          "16:40",
+          "19:10",
+          "21:40"
+        ],
+        "movie_name": "El elegido",
+        "genere": "2hr 2min"
+      },
+      {
+        "showtimes": [
+          "20:45"
+        ],
+        "movie_name": "Ben-Hur (2016) V.O.S.E.",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "22:35"
+        ],
+        "movie_name": "Jason Bourne",
+        "genere": "2hr 0min"
+      },
+      {
+        "showtimes": [
+          "23:15"
+        ],
+        "movie_name": "La leyenda de Tarzán",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "16:00"
+        ],
+        "movie_name": "Los visitantes la lían V.O.S.E.",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "17:05"
+        ],
+        "movie_name": "Zipi y Zape y la isla del capitan",
+        "genere": "1hr 45min"
+      }
+    ],
+    "theater": "YELMO CINES PLAZA NORTE 2",
+    "address": "CTRA. DE BURGOS - SALIDA 19 - C C PLAZA NORTE II,S/N, San Sebastián de Los Reyes, Spain - 915 26 81 30"
+  },
+  {
+    "movieslist": [
+      {
+        "showtimes": [
+          "16:05",
+          "18:10",
+          "20:15",
+          "22:20"
+        ],
+        "movie_name": "Cuerpo de élite",
+        "genere": "1hr 37min"
+      },
+      {
+        "showtimes": [
+          "16:30",
+          "18:30",
+          "20:30",
+          "22:30"
+        ],
+        "movie_name": "No respires",
+        "genere": "1hr 28min"
+      },
+      {
+        "showtimes": [
+          "16:00",
+          "17:55",
+          "19:50",
+          "21:45"
+        ],
+        "movie_name": "Mascotas",
+        "genere": "1hr 26min"
+      },
+      {
+        "showtimes": [
+          "16:30",
+          "19:00",
+          "21:30",
+          "22:40"
+        ],
+        "movie_name": "Ben-Hur (2016)",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "20:40",
+          "22:25"
+        ],
+        "movie_name": "Nunca apagues la luz",
+        "genere": "1hr 21min"
+      },
+      {
+        "showtimes": [
+          "16:20",
+          "18:25",
+          "20:20"
+        ],
+        "movie_name": "Siete vidas, este gato es un peligro",
+        "genere": "1hr 27min"
+      },
+      {
+        "showtimes": [
+          "18:45",
+          "20:45",
+          "22:45"
+        ],
+        "movie_name": "Café society",
+        "genere": "1hr 36min"
+      },
+      {
+        "showtimes": [
+          "17:20",
+          "19:40",
+          "21:55"
+        ],
+        "movie_name": "Los visitantes la lían",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "16:00",
+          "18:05",
+          "20:10"
+        ],
+        "movie_name": "Kubo y las dos cuerdas mágicas",
+        "genere": "1hr 42min"
+      },
+      {
+        "showtimes": [
+          "18:20",
+          "22:20"
+        ],
+        "movie_name": "Criminal",
+        "genere": "1hr 53min"
+      },
+      {
+        "showtimes": [
+          "16:05",
+          "18:15",
+          "20:25"
+        ],
+        "movie_name": "Peter y el dragón",
+        "genere": "1hr 43min"
+      },
+      {
+        "showtimes": [
+          "16:40",
+          "19:10",
+          "21:40"
+        ],
+        "movie_name": "Escuadrón suicida",
+        "genere": "2hr 10min"
+      },
+      {
+        "showtimes": [
+          "16:10",
+          "18:40",
+          "21:15"
+        ],
+        "movie_name": "Star Trek: Más allá",
+        "genere": "1hr 40min"
+      },
+      {
+        "showtimes": [
+          "17:30",
+          "22:15"
+        ],
+        "movie_name": "Cazafantasmas",
+        "genere": "1hr 56min"
+      },
+      {
+        "showtimes": [
+          "22:35"
+        ],
+        "movie_name": "Lejos del mar",
+        "genere": "1hr 46min"
+      },
+      {
+        "showtimes": [
+          "16:25"
+        ],
+        "movie_name": "Heidi",
+        "genere": "1hr 50min"
+      },
+      {
+        "showtimes": [
+          "20:00"
+        ],
+        "movie_name": "Ben-Hur (2016) 3D",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "16:05"
+        ],
+        "movie_name": "Zipi y Zape y la isla del capitan",
+        "genere": "1hr 45min"
+      }
+    ],
+    "theater": "YELMO CINES RIVAS FUTURA",
+    "address": "C/ MARIE CURIE PARQUE EMPRESARIAL RIVAS FUTURA,S/N, Rivas-vaciamadrid, Spain"
+  },
+  {
+    "movieslist": [
+      {
+        "showtimes": [
+          "18:00",
+          "20:05",
+          "22:10"
+        ],
+        "movie_name": "Cuerpo de élite",
+        "genere": "1hr 37min"
+      },
+      {
+        "showtimes": [
+          "18:00",
+          "20:15",
+          "22:20"
+        ],
+        "movie_name": "No respires",
+        "genere": "1hr 28min"
+      },
+      {
+        "showtimes": [
+          "12:00",
+          "16:00",
+          "18:00",
+          "20:00"
+        ],
+        "movie_name": "Mascotas",
+        "genere": "1hr 26min"
+      },
+      {
+        "showtimes": [
+          "12:00",
+          "15:50",
+          "18:00",
+          "20:00",
+          "22:00"
+        ],
+        "movie_name": "Ben-Hur (2016)",
+        "genere": "2hr 9min"
+      },
+      {
+        "showtimes": [
+          "22:00"
+        ],
+        "movie_name": "Nunca apagues la luz",
+        "genere": "1hr 21min"
+      },
+      {
+        "showtimes": [
+          "12:00",
+          "16:00",
+          "18:00",
+          "20:00"
+        ],
+        "movie_name": "Siete vidas, este gato es un peligro",
+        "genere": "1hr 27min"
+      },
+      {
+        "showtimes": [
+          "12:00",
+          "16:00",
+          "20:00",
+          "22:00"
+        ],
+        "movie_name": "Kubo y las dos cuerdas mágicas",
+        "genere": "1hr 42min"
+      },
+      {
+        "showtimes": [
+          "12:00",
+          "16:00",
+          "18:00"
+        ],
+        "movie_name": "Peter y el dragón",
+        "genere": "1hr 43min"
+      },
+      {
+        "showtimes": [
+          "22:00"
+        ],
+        "movie_name": "Escuadrón suicida",
+        "genere": "2hr 10min"
+      },
+      {
+        "showtimes": [
+          "12:00",
+          "16:00"
+        ],
+        "movie_name": "Cazafantasmas",
+        "genere": "1hr 56min"
+      }
+    ],
+    "theater": "RESTON CINEMA",
+    "address": "AVDA. MAR MEDITERRANEO, 3, Valdemoro, Spain - 918 08 48 43"
+  }
+]
