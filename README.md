@@ -5,16 +5,18 @@ Web Scrapping series in python
 
 ## Module dependencies:
 
-Mechanize, Urllib, bs4, re, requests, urlparse
+mechanize, BeautifulSoup (for Python 2.x) | bs4 (for Python 3.x), json, re, requests, urlparse, urllib
 
-`sudo pip install <module_name>`
+`pip install <module_name>`
 
 ## Projects
 
 **1. Google Movies:**
 	
-	Script to scrap the movie names, theaters in a city, their address, movie genere and the movie showtimes. 
-	Creating the output response in Json/ dictionary object
+	Script to scrap google movies, retrieving a list of theaters, 
+	their address, movies list, movies genere and showtimes for a given location. 
+	 
+	This script outputs a JSON file with the response. 
 
 **2. Zomato Top Restaurants:**
 	
