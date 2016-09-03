@@ -3,9 +3,11 @@ PyScrapper
 
 Web Scrapping series in python
 
-## Modules Used 
+## Module dependencies:
 
-Mechanize, Urllib, BeautifulSoup, RE, urlparse
+Mechanize, Urllib, bs4, re, requests, urlparse
+
+`sudo pip install <module_name>`
 
 ## Projects
 
