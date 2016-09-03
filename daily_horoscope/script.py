@@ -3,8 +3,11 @@ Class to scrap the daily horoscope details for each sign and write the
 response in text files. The horoscope is scraped from five various websites
 '''
 
-from BeautifulSoup import BeautifulSoup
 import urllib
+
+from BeautifulSoup import BeautifulSoup
+
+
 class horoscope:
 	
 	'''

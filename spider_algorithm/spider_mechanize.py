@@ -2,9 +2,8 @@
 Spider Algorithm using mechanize
 '''
 
-import urllib
-from BeautifulSoup import BeautifulSoup
 import urlparse
+
 import mechanize
 
 url = "http://www.shivambansal.com"

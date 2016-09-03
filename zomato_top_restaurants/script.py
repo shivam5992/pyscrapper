@@ -3,11 +3,13 @@ Python class to scrap top 25 trending restaurants and their details for various
 cities and creating seperate json response for each city
 '''
 
+import json
 import re
-from BeautifulSoup import BeautifulSoup
 import urllib
 from pprint import pprint
-import json
+
+from BeautifulSoup import BeautifulSoup
+
 
 class zomato_top_restaurants:
 

@@ -4,7 +4,7 @@ Python class to get top 25 websites of a country from alexia.com
 
 import mechanize
 from BeautifulSoup import BeautifulSoup
-import re
+
 
 class top_websites:
 	def scrap(self,city):

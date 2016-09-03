@@ -2,9 +2,8 @@
 Reading symbols from file, Scrapping from bloomberg's chart (network response) for day stock price, writing it to a file in new folder
 '''
 
-import re
-import urllib
 import json
+import urllib
 
 symbolslist = open("symbols_less.txt").read()
 symbolslist = symbolslist.split("\n")

@@ -2,9 +2,10 @@
 Implementation of spider algorithm, fetches ALL the urls and links of a website.
 '''
 
-import urlparse
 import urllib
-from BeautifulSoup import BeautifulSoup 
+import urlparse
+
+from BeautifulSoup import BeautifulSoup
 
 url = "http://www.nytimes.com"
 urls = [url] # Stack of urls to scrape

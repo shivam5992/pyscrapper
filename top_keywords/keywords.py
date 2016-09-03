@@ -1,5 +1,6 @@
-from BeautifulSoup import BeautifulSoup
 import urllib
+
+from BeautifulSoup import BeautifulSoup
 
 '''
 function to get top keywords from the whole text

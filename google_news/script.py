@@ -1,6 +1,7 @@
-from BeautifulSoup import BeautifulSoup
 import urllib
 from pprint import pprint
+
+from BeautifulSoup import BeautifulSoup
 
 '''
 Python class to scrap latest news from google news

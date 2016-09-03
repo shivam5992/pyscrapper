@@ -3,9 +3,8 @@ Scrapping last price of various companies from yahoo finance
 input taken from a file
 '''
 
-import urllib
 import re
-import json
+import urllib
 
 symbolfile = open("symbols_less.txt")
 symbolslist = symbolfile.read()
