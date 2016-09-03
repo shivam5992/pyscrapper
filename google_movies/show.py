@@ -4,12 +4,11 @@
 Python Class to scrap google movies show times according to location.
 This script outputs list of Theaters, their address, movies list, movies genere etc.
 '''
-import bs4
-from bs4 import BeautifulSoup
-import re
-import requests
 import pprint
-import json
+import re
+from bs4 import BeautifulSoup
+
+import requests
 
 
 # Python class to scrap google-movies webpage.
@@ -23,8 +22,8 @@ class google_movie_scrapper:
             url = "http://www.google.com/movies"
         else:
             url = "http://www.google.com/movies?near=" + city
-        r = requests.get(url)
-        textohtml = r.text
+        req = requests.get(url)
+        textohtml = req.text
         self.soup = BeautifulSoup(textohtml, "lxml")
 
     # Function which scraps the movies, theaters, address, generes and movie times and building the response as list of dictionaries.
@@ -79,7 +78,7 @@ if __name__ == '__main__':
     print("")
 
     for i, j in enumerate(output):
-        print("Movies and showtimes for: \n\n", output[i]['theater'], "\n", output[i]['address'], "\n")
+        print("Movies and showtimes for:     \n\n", output[i]['theater'], "\n", output[i]['address'], "\n")
         for x, y in enumerate(output[i]['movieslist']):
             print(y['movie_name'], ": ", y['showtimes'], y['genere'])
         print("-" * 100)

@@ -5,9 +5,11 @@ www.weather-forecast.com
 Uses Mechanize to submit the city name in the form
 '''
 
+from pprint import pprint
+
 import mechanize
 from BeautifulSoup import BeautifulSoup
-from pprint import pprint
+
 
 class weather_scrap:
 

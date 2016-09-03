@@ -1,6 +1,7 @@
-from mechanize import Browser
-from BeautifulSoup import BeautifulSoup
 import json
+
+from BeautifulSoup import BeautifulSoup
+from mechanize import Browser
 
 br = Browser()
 br.open("http://stateoftheunion.onetwothree.net/texts/index.html")

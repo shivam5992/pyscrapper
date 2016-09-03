@@ -1,9 +1,8 @@
 '''
 Scrapping from bloomberg, parsing json response
 '''
-import re
-import urllib
 import json
+import urllib
 
 url = "http://www.bloomberg.com/markets/watchlist/recent-ticker/AAPL:US"
 htmlfile = urllib.urlopen(url)
