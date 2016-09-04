@@ -43,8 +43,8 @@ mechanize, BeautifulSoup (for Python 2.x) | bs4 (for Python 3.x), json, re, requ
 
 **7. Website Top Keywords:** 
 	
-	  Create a list of most occured words in a website.
-	  Also counts thier frequency.
+	Create a list of most occured words in a website.
+	Also counts thier frequency.
 
 **8. News Scrapping:**
 
@@ -60,7 +60,7 @@ mechanize, BeautifulSoup (for Python 2.x) | bs4 (for Python 3.x), json, re, requ
 
 **11. US President State of Union Speech:**
 	
-	Scrape the speech transcripts of all Us Presidents from 1700 to Present.
+	Scrap the speech transcripts of all Us Presidents from 1700 to Present.
 
 ## Spider Algorithm
 
