@@ -216,3 +216,4 @@ pip-log.txt
 .mr.developer.cfg
 selenium_crawler_replica/
 zomato_top_restaurants_replica/
+/selenium_crawler/out/tech_words.txt

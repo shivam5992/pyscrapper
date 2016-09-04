@@ -1,7 +1,12 @@
 PyScrapper
 ==========
 
-Web Scrapping series in python
+Web Scrapping series in python.
+
+Forked and mantained by Ivan Nieto <ivan.n.s@tuta.io> 
+
+Original work by Shivam Bansal <shivam5992@gmail.com>
+
 
 ## Module dependencies:
 
@@ -9,61 +14,66 @@ mechanize, BeautifulSoup (for Python 2.x) | bs4 (for Python 3.x), json, re, requ
 
 `pip install <module_name>`
 
-## Projects
+# DISCLAIMER
 
-**1. Google Movies:**
+Some of the projects inside this repo are broken due to updates on the websites used, 
+so they are being reworked to be fully functional. Contributions are welcome. Just fork the repo and pull request your updates.
+# Projects
+
+#### Google Movies
+
+        Script to scrap google movies, retrieving a list of theaters, their address, movies list, movies genere and showtimes for a given location. 
+             
+        This script outputs a JSON file with the response. 
+
+#### Zomato Top Restaurants
 	
-	Script to scrap google movies, retrieving a list of theaters, 
-	their address, movies list, movies genere and showtimes for a given location. 
-	 
-	This script outputs a JSON file with the response. 
+        Script to scrap the top 25 trending restaurants with their rank, rating, details... 
+        for the mentioned cities on the zomato.com website and creating a seperate json response for each city.
 
-**2. Zomato Top Restaurants:**
+
+#### Finance and Stock
 	
-	Script to scrap the top 25 trending restaurants with their rank, rating, details etc 
-	for the mentioned cities on the zomato.com website and creating a seperate json response for each city.
+        Scrapping the last closing price for all the quotes from various sites like google, yahoo, bloomberg etc
 
+#### Live Weather
 
-**3. Finance and Stock:**
+        Scrap the weather details for morning, afternoon and night time for a particular website.
+
+#### Daily Horoscope
 	
-	Scrapping the last closing price for all the quotes from various sites like google, yahoo, bloomberg etc
+        Scrapping the daily horoscope details for each sign and creating the output as text files. 
+        Multiple websites are scrapped to get the details.
 
-**4. Live Weather:**
+#### Train Details
 
-	Scrap the weather details for morning, afternoon and night time for a particular website.
+        Scrap the details of train from irctc by inputting train number.
 
-**5. Daily Horoscope:**
+#### Website Top Keywords
 	
-	Scrapping the daily horoscope details for each sign and creating the output as text files. 
-	Multiple websites are scrapped to get the details.
+        Create a list of most occured words in a website.
+        Also counts thier frequency.
 
-**6. Train Details:**
+#### News Scrapping
 
-	Scrap the details of train from irctc by inputting train number.
+        Scrap the news from various news sources.
 
-**7. Website Top Keywords:** 
+#### Alexa Top Websites
 	
-	Create a list of most occured words in a website.
-	Also counts thier frequency.
+        Get the list of top 25 websites of a country.
 
-**8. News Scrapping:**
+#### Movie Details
 
-	Scrap the news from various news sources.
+        Get the movie details from IMDB and RottenTomatoes.
 
-**9. Alexa Top Websites:**
+#### US President State of Union Speech
 	
-	Get the list of top 25 websites of a country.
+        Scrap the speech transcripts of all Us Presidents from 1700 to Present.
 
-**10. Movie Details:**
+#### Spider Algorithm
 
-	Get the movie details from IMDB and RottenTomatoes.
+        Spider algorithm is a typical web scrapping technique to fetch all urls (etc) of a webpage. By all means, 
+        even those urls which are not part of the requested page. It fetches all urls of current urls as well.
+        Implemented using two ways, one normal and second using mechanize.
 
-**11. US President State of Union Speech:**
-	
-	Scrap the speech transcripts of all Us Presidents from 1700 to Present.
 
-## Spider Algorithm
-
-Spider algorithm is a typical web scrapping technique to fetch all urls (etc) of a webpage. By all means, 
-even those urls which are not part of the requested page. It fetches all urls of current urls as well.
-Implemented using two ways, one normal and second using mechanize.
