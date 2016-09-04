@@ -77,3 +77,17 @@ so they are being reworked to be fully functional. Contributions are welcome. Ju
         Implemented using two ways, one normal and second using mechanize.
 
 
+## Rework ToDo
+
+- [x] Google Movies
+- [ ] Zomato Top Restaurants
+- [ ] Finance and Stock
+- [ ] Live Weather
+- [ ] Daily Horoscope
+- [ ] Train Details
+- [ ] Website Top Keywords
+- [x] News Scrapping
+- [ ] Alexa Top Websites
+- [ ] Movie Details
+- [ ] US President State of Union Speech
+- [ ] Spider Algorithm
