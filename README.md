@@ -1,7 +1,7 @@
 PyScrapper
 ==========
 
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)]() [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork&maxAge=2592000)]() [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&maxAge=2592000)](https://twitter.com/IvanNietoS) [![Twitter Follow](https://img.shields.io/twitter/follow/shields_io.svg?style=social&label=Follow&maxAge=2592000)]()
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)]() [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork&maxAge=2592000)]() [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&maxAge=2592000)](https://twitter.com/IvanNietoS) [![Twitter Follow](https://img.shields.io/twitter/follow/shields_io.svg?style=social&label=Follow&maxAge=2592000)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2F.twitter.com%2Fweb%2Ffollow-button&ref_src=twsrc%5Etfw&region=follow_link&screen_name=IvanNietoS&tw_p=followbutton)
 
 ##### WIP DISCLAIMER
 
