@@ -3,7 +3,12 @@ PyScrapper
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
 
-Web Scrapping series in python.
+##### WIP DISCLAIMER
+
+Some of the projects inside this repo are broken due to updates on the websites used, 
+so they are being reworked to be fully functional. Contributions are welcome. Just fork the repo and pull request your updates.
+
+### Web Scrapping series in python.
 
 Forked and mantained by Ivan Nieto <ivan.n.s@tuta.io> 
 
@@ -16,10 +21,6 @@ mechanize, BeautifulSoup (for Python 2.x) | bs4 (for Python 3.x), json, re, requ
 
 `pip install <module_name>`
 
-# DISCLAIMER
-
-Some of the projects inside this repo are broken due to updates on the websites used, 
-so they are being reworked to be fully functional. Contributions are welcome. Just fork the repo and pull request your updates.
 # Projects
 
 #### Google Movies
