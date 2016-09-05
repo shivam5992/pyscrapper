@@ -1,7 +1,7 @@
 PyScrapper
 ==========
 
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)]() [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork&maxAge=2592000)]() [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&maxAge=2592000)]() [![Twitter Follow](https://img.shields.io/twitter/follow/shields_io.svg?style=social&label=Follow&maxAge=2592000)]()
 
 ##### WIP DISCLAIMER
 
@@ -19,7 +19,7 @@ Original work by Shivam Bansal <shivam5992@gmail.com>
 
 mechanize, BeautifulSoup (for Python 2.x) | bs4 (for Python 3.x), json, re, requests, urlparse, urllib
 
-`pip install <module_name>`
+        `pip install <module_name>`
 
 # Projects
 
