@@ -25,19 +25,23 @@ mechanize, BeautifulSoup (for Python 2.x) | bs4 (for Python 3.x), json, re, requ
 
 #### Google Movies
 
-        Script to scrap google movies, retrieving a list of theaters, their address, movies list, movies genere and showtimes for a given location. 
+        Script to scrap google movies, retrieving a list of theaters, their address, movies list, 
+        movies genere and showtimes for a given location. 
              
         This script outputs a JSON file with the response. 
 
 #### Zomato Top Restaurants
 	
         Script to scrap the top 25 trending restaurants with their rank, rating, details... 
-        for the mentioned cities on the zomato.com website and creating a seperate json response for each city.
+        for the mentioned cities on the zomato.com website.
+        
+        It outputs a separate JSON response for each city.
 
 
 #### Finance and Stock
 	
-        Scrapping the last closing price for all the quotes from various sites like google, yahoo, bloomberg etc
+        Scrapping the last closing price for all the quotes from various sites 
+        like google, yahoo, bloomberg etc
 
 #### Live Weather
 
@@ -75,8 +79,9 @@ mechanize, BeautifulSoup (for Python 2.x) | bs4 (for Python 3.x), json, re, requ
 
 #### Spider Algorithm
 
-        Spider algorithm is a typical web scrapping technique to fetch all urls (etc) of a webpage. By all means, 
-        even those urls which are not part of the requested page. It fetches all urls of current urls as well.
+        Spider algorithm is a typical web scrapping technique to fetch all urls (etc) of a webpage.
+        By all means, even those urls which are not part of the requested page. 
+        It fetches all urls of current urls as well.
         Implemented using two ways, one normal and second using mechanize.
 
 
