@@ -21,11 +21,11 @@ for letter in ascii_lowercase:
     table = browser.find_element_by_tag_name('tbody')
     for i, x in enumerate(table.find_elements_by_class_name('sorting_1')):
         word = str(x.text.encode('utf-8').decode('ASCII', 'ignore'))
-        category = table.find_element_by_xpath("//*/tbody/tr[" + str(i + 1) + "]/td[2]").text
-        # category = table.find_element_by_xpath("//*[@id='alphatable']/tbody/tr[" + str(i + 1) + "]/td[2]").text
-        category = str(category.encode('utf-8').decode('ASCII', 'ignore'))
-        if category not in categories:
-            categories.append(category)
-            catfile.write(category + "\n")
+        # category = table.find_element_by_xpath("//*/tbody/tr[" + str(i + 1) + "]/td[2]").text
+        # # category = table.find_element_by_xpath("//*[@id='alphatable']/tbody/tr[" + str(i + 1) + "]/td[2]").text
+        # category = str(category.encode('utf-8').decode('ASCII', 'ignore'))
+        # if category not in categories:
+        #     categories.append(category)
+        #     catfile.write(category + "\n")
         fout.write(word + "\n")
 browser.close()
